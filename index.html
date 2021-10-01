@@ -309,6 +309,18 @@ document.body.style.background = "#e6d8ef";
   }
 });
 </script>
+<script type='text/javascript'>
+  document.onkeydown = function (e) {
+    e.preventDefault();        
+  }
+  jQuery(document).ready(function(){
+  jQuery(function() {
+        jQuery(this).bind("contextmenu", function(event) {
+            event.preventDefault();
 
+        });
+    });
+});
+</script>
 </body> 
 </html>
