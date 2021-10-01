@@ -1,0 +1,31 @@
+body::-webkit-scrollbar {
+  width: 3px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  /* color of the scroll thumb */
+}
+
+#main{color:#fffff8; z-index:-2; font-family: 'Berkshire Swash', cursive; position:absolute; font-size:90px; left:2.5%; top:17%;}
+#main2{color: #f4f4f4; z-index:-2; font-family: 'Poppins', sans-serif; position:absolute; font-size:17px; left:3.6%; top:22.5%; letter-spacing:1.5px;}
+#main3{color: #f4f4f4; z-index:-2; font-family: 'Poppins', sans-serif; position:absolute; font-size:14px; left:3.9%; top:50%; letter-spacing:1px;}
+#main4{color: #f4f4f4; z-index:-2; 
+   font-family: 'Caveat', cursive; position:absolute; font-size:17px; left:12%; top:82%; letter-spacing:1px;transform: rotate(15deg);}
+   #main4_1{color: #f4f4f4; z-index:-2; 
+   font-family: 'Caveat', cursive; position:absolute; font-size:17px; left:10.5%; top:78.5%; letter-spacing:1px;}
+
+   svg {
+  width: 70px;
+  height: 70px;
+}
+svg:hover {
+  fill: red;
+}
+
+#tslide{cursor:pointer;}
+#tslide:hover{top:-2px; color:white;}
